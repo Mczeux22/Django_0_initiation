@@ -1,0 +1,32 @@
+# Environnements virtuels Python
+venv/
+.env/
+env/
+ENV/
+.venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Fichiers de log
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de configuration d'IDE
+.vscode/
+.idea/
+
+# Fichiers de sauvegarde
+*.swp
+*.bak
+*.tmp
+
+# PyInstaller
+dist/
+build/
+*.spec
