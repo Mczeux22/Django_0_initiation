@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pop-up Test</title>
+  
+  <!-- Inclure les fichiers JS dans le bon ordre -->
+  <script src="file1.js"></script> <!-- Contient unicorn() et puffin() -->
+  <script src="file2.js"></script> <!-- Contient cat() et whale() -->
+  <script src="file3.js"></script> <!-- Contient whale() -->
+  <script src="file4.js"></script> <!-- Contient puffin() -->
+
+</head>
+<body>
+
+  <h1>Pop-up Test</h1>
+
+  <script>
+    // On appelle cat() pour démarrer la chaîne d'appels et afficher la pop-up
+    cat();
+  </script>
+
+</body>
+</html>
